@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const routes = require('./routes'); // passar o ./ quando não estiver buscando pacote e sim um arquivo
 
+
 const app = express();
 
 app.use(cors());
